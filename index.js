@@ -168,9 +168,7 @@ function component(width, height, color, x, y, type)
 
 function updategamerange()
  {
-         music.play();
-
-    //if (pic.x == )
+     music.play();
 
     if (bar.width <= 0)
     {
