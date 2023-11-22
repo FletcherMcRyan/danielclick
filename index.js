@@ -41,7 +41,6 @@ function startGame()
     pic = new component (50, 50,"daniel.png", 900, 300, "image");
     gamerange.start();
     hit = new sound("hit.mp3");
-    hit.play();
 }
 
 
@@ -170,6 +169,8 @@ function component(width, height, color, x, y, type)
 
 function updategamerange()
  {
+
+         hit.play();
     //if (pic.x == )
 
     if (bar.width <= 0)
