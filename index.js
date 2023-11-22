@@ -33,7 +33,6 @@ function startGame()
 {
     line = new component (1, 1100, "red", 540, 1);
     music = new sound("danielclick.mp3");
-    music.play();
     sideone = new component(750, 750, "mouth.png", -200, 50, "image");
     bar = new component (800, 10, "lightgreen", 550, 775);
     enemy = new component (10, 10, "darkgreen", 10, 10);
@@ -169,8 +168,8 @@ function component(width, height, color, x, y, type)
 
 function updategamerange()
  {
+         music.play();
 
-         hit.play();
     //if (pic.x == )
 
     if (bar.width <= 0)
